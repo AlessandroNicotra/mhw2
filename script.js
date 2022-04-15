@@ -39,11 +39,6 @@ function premuto(event){
             event.currentTarget.style.backgroundColor = '#cfe3ff';
             event.currentTarget.querySelector('img.checkbox').src = 'images/checked.png'
             event.currentTarget.style.opacity = 1;
-
-            console.log(event.currentTarget.getAttribute("data-question-id"))
-            console.log(lista[0]);
-            console.log(count);
-            console.log(lista.length)
             break;
         case "two":
             if(lista[1] === undefined){
@@ -66,10 +61,6 @@ function premuto(event){
             event.currentTarget.style.backgroundColor = '#cfe3ff';
             event.currentTarget.querySelector('img.checkbox').src = 'images/checked.png'
             event.currentTarget.style.opacity = 1;
-
-            console.log(event.currentTarget.getAttribute("data-question-id"))
-            console.log(lista[1]);
-            console.log(lista.length)
             break;
         case "three":
             if(lista[2] === undefined){
@@ -92,10 +83,6 @@ function premuto(event){
             event.currentTarget.style.backgroundColor = '#cfe3ff';
             event.currentTarget.querySelector('img.checkbox').src = 'images/checked.png'
             event.currentTarget.style.opacity = 1;
-
-            console.log(event.currentTarget.getAttribute("data-question-id"))
-            console.log(lista[2]);
-            console.log(lista.length)
             break;
     }
 
@@ -119,8 +106,6 @@ function premuto(event){
                 risultato = lista[i];
             }
         }
-
-        console.log(lista)
 
         const titolo = document.querySelector('section#risultato h1');
         titolo.textContent = RESULTS_MAP[risultato].title

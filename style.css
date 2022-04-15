@@ -1,4 +1,3 @@
-/* TODO: inserite il CSS necessario per completare il MHW! */
 .choice-grid{
     display: flex;
     flex-wrap: wrap;
@@ -43,7 +42,7 @@ section#risultato {
     background-size: cover;
 }
 
-@media (max-width: 700px) {     /* TODO: Cerchi Gialli */
+@media (max-width: 700px) {
     article{
         width:95%;
     }

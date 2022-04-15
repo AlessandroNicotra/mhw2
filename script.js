@@ -1,5 +1,3 @@
-/* TODO: inserite il codice JavaScript necessario a completare il MHW! */
-
 let lista = [];
 let count = 0;
 let prevdiv_one;
